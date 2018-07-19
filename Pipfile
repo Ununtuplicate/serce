@@ -1,0 +1,24 @@
+[[source]]
+<<<<<<< HEAD
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+wagtail = ">=2.1,<2.2"
+Django = "<2.1,>=2.0"
+
+[dev-packages]
+=======
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+
+[packages]
+django = "*"
+gunicorn = "*"
+django-heroku = "*"
+requests = "*"
+>>>>>>> 353f0ebb142065a5637d555813b6efce41e85f92
+
+[requires]
+python_version = "3.6"

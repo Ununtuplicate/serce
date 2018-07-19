@@ -1,0 +1,27 @@
+<<<<<<< HEAD
+.DS_Store
+*.pyc
+*.log
+*.swp
+*.retry
+.env
+*~
+/logs
+/data
+.~*
+common/CACHE
+serce/media/images/*
+serce/settings/local.py
+db.sqlite3
+__pycache__
+.vagrant/
+/.vagrant/
+/Vagrantfile.local
+!.gitignore
+=======
+venv
+*.pyc
+staticfiles
+.env
+db.sqlite3
+>>>>>>> 353f0ebb142065a5637d555813b6efce41e85f92
